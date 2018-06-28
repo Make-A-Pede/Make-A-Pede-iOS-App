@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		312165FD20E5535600870A02 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312165FC20E5535600870A02 /* InfoViewController.swift */; };
+		3137B6B51E2FF05500C8ABFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3137B6B41E2FF05500C8ABFD /* AppDelegate.swift */; };
+		3137B6B71E2FF05500C8ABFD /* JoystickViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3137B6B61E2FF05500C8ABFD /* JoystickViewController.swift */; };
+		3137B6BA1E2FF05500C8ABFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3137B6B81E2FF05500C8ABFD /* Main.storyboard */; };
+		3137B6BC1E2FF05500C8ABFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3137B6BB1E2FF05500C8ABFD /* Assets.xcassets */; };
+		3137B6BF1E2FF05500C8ABFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3137B6BD1E2FF05500C8ABFD /* LaunchScreen.storyboard */; };
+		3154928920C874250065FB40 /* AppUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3154928820C874250065FB40 /* AppUtility.swift */; };
+		3154928B20C8D9E20065FB40 /* SliderControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3154928A20C8D9E20065FB40 /* SliderControlViewController.swift */; };
+		3162E65720D86695004DC8DE /* ArrowControlViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3162E65620D86695004DC8DE /* ArrowControlViewController.swift */; };
+		3162E65920D86F5F004DC8DE /* arrows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3162E65820D86F5F004DC8DE /* arrows.swift */; };
+		3187263D1F2AA1D6002E293D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3187263C1F2AA1D6002E293D /* HomeViewController.swift */; };
+		31B48B081F467944009F75EF /* joystick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B48B071F467944009F75EF /* joystick.swift */; };
+		31B48B0A1F467AD0009F75EF /* resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B48B091F467AD0009F75EF /* resources.swift */; };
+		31F3D36420C0B341003A0FD8 /* DeviceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F3D36320C0B341003A0FD8 /* DeviceListViewController.swift */; };
+		31F3D36620C0C901003A0FD8 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F3D36520C0C901003A0FD8 /* AppError.swift */; };
+		3512532648013D212D6D73EB /* Pods_Make_A_Pede.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61BCBC4032E44C8A1BD011DA /* Pods_Make_A_Pede.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		312165FC20E5535600870A02 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		3137B6B11E2FF05500C8ABFD /* Make-A-Pede.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Make-A-Pede.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3137B6B41E2FF05500C8ABFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3137B6B61E2FF05500C8ABFD /* JoystickViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JoystickViewController.swift; sourceTree = "<group>"; };
+		3137B6B91E2FF05500C8ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3137B6BB1E2FF05500C8ABFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3137B6BE1E2FF05500C8ABFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3137B6C01E2FF05500C8ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3154928820C874250065FB40 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
+		3154928A20C8D9E20065FB40 /* SliderControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderControlViewController.swift; sourceTree = "<group>"; };
+		3162E65620D86695004DC8DE /* ArrowControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowControlViewController.swift; sourceTree = "<group>"; };
+		3162E65820D86F5F004DC8DE /* arrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrows.swift; sourceTree = "<group>"; };
+		3187263C1F2AA1D6002E293D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		31B48B071F467944009F75EF /* joystick.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = joystick.swift; sourceTree = "<group>"; };
+		31B48B091F467AD0009F75EF /* resources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = resources.swift; sourceTree = "<group>"; };
+		31F3D36320C0B341003A0FD8 /* DeviceListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceListViewController.swift; sourceTree = "<group>"; };
+		31F3D36520C0C901003A0FD8 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		61BCBC4032E44C8A1BD011DA /* Pods_Make_A_Pede.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Make_A_Pede.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		63970DA73D2EE05BED2EB915 /* Pods-Make-A-Pede.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Make-A-Pede.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Make-A-Pede/Pods-Make-A-Pede.debug.xcconfig"; sourceTree = "<group>"; };
+		6B6151B919AF2A82D3779CAA /* Pods-Make-A-Pede.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Make-A-Pede.release.xcconfig"; path = "Pods/Target Support Files/Pods-Make-A-Pede/Pods-Make-A-Pede.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3137B6AE1E2FF05500C8ABFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3512532648013D212D6D73EB /* Pods_Make_A_Pede.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24900D6912A3D7D490D60D24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61BCBC4032E44C8A1BD011DA /* Pods_Make_A_Pede.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3137B6A81E2FF05500C8ABFD = {
+			isa = PBXGroup;
+			children = (
+				3137B6B31E2FF05500C8ABFD /* Make-A-Pede */,
+				3137B6B21E2FF05500C8ABFD /* Products */,
+				9CBA4A1D03C6AD363BC93013 /* Pods */,
+				24900D6912A3D7D490D60D24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3137B6B21E2FF05500C8ABFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3137B6B11E2FF05500C8ABFD /* Make-A-Pede.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3137B6B31E2FF05500C8ABFD /* Make-A-Pede */ = {
+			isa = PBXGroup;
+			children = (
+				3137B6B41E2FF05500C8ABFD /* AppDelegate.swift */,
+				3187263C1F2AA1D6002E293D /* HomeViewController.swift */,
+				31F3D36320C0B341003A0FD8 /* DeviceListViewController.swift */,
+				3137B6B61E2FF05500C8ABFD /* JoystickViewController.swift */,
+				3154928A20C8D9E20065FB40 /* SliderControlViewController.swift */,
+				3162E65620D86695004DC8DE /* ArrowControlViewController.swift */,
+				312165FC20E5535600870A02 /* InfoViewController.swift */,
+				3137B6B81E2FF05500C8ABFD /* Main.storyboard */,
+				3137B6BB1E2FF05500C8ABFD /* Assets.xcassets */,
+				31B48B071F467944009F75EF /* joystick.swift */,
+				3162E65820D86F5F004DC8DE /* arrows.swift */,
+				31B48B091F467AD0009F75EF /* resources.swift */,
+				31F3D36520C0C901003A0FD8 /* AppError.swift */,
+				3154928820C874250065FB40 /* AppUtility.swift */,
+				3137B6C01E2FF05500C8ABFD /* Info.plist */,
+				3137B6BD1E2FF05500C8ABFD /* LaunchScreen.storyboard */,
+			);
+			path = "Make-A-Pede";
+			sourceTree = "<group>";
+		};
+		9CBA4A1D03C6AD363BC93013 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				63970DA73D2EE05BED2EB915 /* Pods-Make-A-Pede.debug.xcconfig */,
+				6B6151B919AF2A82D3779CAA /* Pods-Make-A-Pede.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3137B6B01E2FF05500C8ABFD /* Make-A-Pede */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3137B6C31E2FF05500C8ABFD /* Build configuration list for PBXNativeTarget "Make-A-Pede" */;
+			buildPhases = (
+				6317B9B0C8DB822810507727 /* [CP] Check Pods Manifest.lock */,
+				3137B6AD1E2FF05500C8ABFD /* Sources */,
+				3137B6AE1E2FF05500C8ABFD /* Frameworks */,
+				3137B6AF1E2FF05500C8ABFD /* Resources */,
+				8D5121D2B1838B6F21B0A54E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Make-A-Pede";
+			productName = "Make-A-Pede";
+			productReference = 3137B6B11E2FF05500C8ABFD /* Make-A-Pede.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3137B6A91E2FF05500C8ABFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jude Brauer";
+				TargetAttributes = {
+					3137B6B01E2FF05500C8ABFD = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = UL54T786TF;
+						LastSwiftMigration = 0930;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3137B6AC1E2FF05500C8ABFD /* Build configuration list for PBXProject "Make-A-Pede" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3137B6A81E2FF05500C8ABFD;
+			productRefGroup = 3137B6B21E2FF05500C8ABFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3137B6B01E2FF05500C8ABFD /* Make-A-Pede */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3137B6AF1E2FF05500C8ABFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3137B6BF1E2FF05500C8ABFD /* LaunchScreen.storyboard in Resources */,
+				3137B6BC1E2FF05500C8ABFD /* Assets.xcassets in Resources */,
+				3137B6BA1E2FF05500C8ABFD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6317B9B0C8DB822810507727 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Make-A-Pede-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D5121D2B1838B6F21B0A54E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Make-A-Pede/Pods-Make-A-Pede-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BlueCapKit/BlueCapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/VerticalSlider/VerticalSlider.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BlueCapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VerticalSlider.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Make-A-Pede/Pods-Make-A-Pede-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3137B6AD1E2FF05500C8ABFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31B48B081F467944009F75EF /* joystick.swift in Sources */,
+				3137B6B71E2FF05500C8ABFD /* JoystickViewController.swift in Sources */,
+				3154928920C874250065FB40 /* AppUtility.swift in Sources */,
+				31B48B0A1F467AD0009F75EF /* resources.swift in Sources */,
+				31F3D36620C0C901003A0FD8 /* AppError.swift in Sources */,
+				3137B6B51E2FF05500C8ABFD /* AppDelegate.swift in Sources */,
+				3187263D1F2AA1D6002E293D /* HomeViewController.swift in Sources */,
+				3162E65720D86695004DC8DE /* ArrowControlViewController.swift in Sources */,
+				3162E65920D86F5F004DC8DE /* arrows.swift in Sources */,
+				31F3D36420C0B341003A0FD8 /* DeviceListViewController.swift in Sources */,
+				312165FD20E5535600870A02 /* InfoViewController.swift in Sources */,
+				3154928B20C8D9E20065FB40 /* SliderControlViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3137B6B81E2FF05500C8ABFD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3137B6B91E2FF05500C8ABFD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3137B6BD1E2FF05500C8ABFD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3137B6BE1E2FF05500C8ABFD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3137B6C11E2FF05500C8ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3137B6C21E2FF05500C8ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3137B6C41E2FF05500C8ABFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63970DA73D2EE05BED2EB915 /* Pods-Make-A-Pede.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UL54T786TF;
+				INFOPLIST_FILE = "Make-A-Pede/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeapede.Make-A-Pede";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		3137B6C51E2FF05500C8ABFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B6151B919AF2A82D3779CAA /* Pods-Make-A-Pede.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UL54T786TF;
+				INFOPLIST_FILE = "Make-A-Pede/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.makeapede.Make-A-Pede";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3137B6AC1E2FF05500C8ABFD /* Build configuration list for PBXProject "Make-A-Pede" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3137B6C11E2FF05500C8ABFD /* Debug */,
+				3137B6C21E2FF05500C8ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3137B6C31E2FF05500C8ABFD /* Build configuration list for PBXNativeTarget "Make-A-Pede" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3137B6C41E2FF05500C8ABFD /* Debug */,
+				3137B6C51E2FF05500C8ABFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3137B6A91E2FF05500C8ABFD /* Project object */;
+}

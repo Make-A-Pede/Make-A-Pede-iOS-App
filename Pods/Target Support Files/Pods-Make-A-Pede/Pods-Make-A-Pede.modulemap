@@ -1,0 +1,6 @@
+framework module Pods_Make_A_Pede {
+  umbrella header "Pods-Make-A-Pede-umbrella.h"
+
+  export *
+  module * { export * }
+}

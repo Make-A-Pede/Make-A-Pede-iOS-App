@@ -1,0 +1,74 @@
+PODS:
+  - BlueCapKit (0.7.0)
+  - MaterialComponents/Buttons (29.0.0):
+    - MaterialComponents/Buttons/ColorThemer (= 29.0.0)
+    - MaterialComponents/Buttons/Component (= 29.0.0)
+    - MaterialComponents/Buttons/TitleColorAccessibilityMutator (= 29.0.0)
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - MaterialComponents/Buttons/ColorThemer (29.0.0):
+    - MaterialComponents/Buttons/Component
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Themes
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - MaterialComponents/Buttons/Component (29.0.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - MaterialComponents/Buttons/TitleColorAccessibilityMutator (29.0.0):
+    - MaterialComponents/Buttons/Component
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFTextAccessibility
+  - MaterialComponents/Ink (29.0.0):
+    - MaterialComponents/Ink/ColorThemer (= 29.0.0)
+    - MaterialComponents/Ink/Component (= 29.0.0)
+  - MaterialComponents/Ink/ColorThemer (29.0.0):
+    - MaterialComponents/Ink/Component
+    - MaterialComponents/Themes
+  - MaterialComponents/Ink/Component (29.0.0)
+  - MaterialComponents/private/Application (29.0.0)
+  - MaterialComponents/private/Math (29.0.0)
+  - MaterialComponents/ShadowElevations (29.0.0)
+  - MaterialComponents/ShadowLayer (29.0.0)
+  - MaterialComponents/Themes (29.0.0)
+  - MaterialComponents/Typography (29.0.0):
+    - MaterialComponents/private/Application
+  - MDFTextAccessibility (1.2.0)
+  - VerticalSlider (1.0.3)
+
+DEPENDENCIES:
+  - BlueCapKit (~> 0.7)
+  - MaterialComponents/Buttons
+  - VerticalSlider
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - BlueCapKit
+    - MaterialComponents
+    - MDFTextAccessibility
+    - VerticalSlider
+
+SPEC CHECKSUMS:
+  BlueCapKit: b13b8715d4de6f325971c4dd5bc33598697dad2f
+  MaterialComponents: d0ae7d9b517a72608caaa609682fe2de41921ba0
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  VerticalSlider: 4dacdf1ba587956142e12087f96922166ec2b58d
+
+PODFILE CHECKSUM: f98f64c2db9870958d0c9d7f8dbcce618546529f
+
+COCOAPODS: 1.5.3
