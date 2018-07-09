@@ -36,6 +36,7 @@
 		3137B6C01E2FF05500C8ABFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3154928820C874250065FB40 /* AppUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUtility.swift; sourceTree = "<group>"; };
 		3154928A20C8D9E20065FB40 /* SliderControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderControlViewController.swift; sourceTree = "<group>"; };
+		315B749120F3DBA5004DBEF7 /* CREDITS.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = CREDITS.md; sourceTree = "<group>"; };
 		3162E65620D86695004DC8DE /* ArrowControlViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowControlViewController.swift; sourceTree = "<group>"; };
 		3162E65820D86F5F004DC8DE /* arrows.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = arrows.swift; sourceTree = "<group>"; };
 		3187263C1F2AA1D6002E293D /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 		3137B6A81E2FF05500C8ABFD = {
 			isa = PBXGroup;
 			children = (
+				315B749120F3DBA5004DBEF7 /* CREDITS.md */,
 				3137B6B31E2FF05500C8ABFD /* Make-A-Pede */,
 				3137B6B21E2FF05500C8ABFD /* Products */,
 				9CBA4A1D03C6AD363BC93013 /* Pods */,

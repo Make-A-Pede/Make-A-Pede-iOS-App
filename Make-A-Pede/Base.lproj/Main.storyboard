@@ -225,7 +225,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableViewCellIdentifier" id="B3L-zo-NOg">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tableViewCellIdentifier" id="B3L-zo-NOg">
                                         <rect key="frame" x="0.0" y="28" width="320" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="B3L-zo-NOg" id="aUS-7L-Cbs">
@@ -311,8 +311,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ajM-Um-imi">
-                                <rect key="frame" x="79" y="172" width="231" height="30"/>
-                                <state key="normal" title="https://github.com/Make-A-Pede/Make-A-Pede-Android-App">
+                                <rect key="frame" x="74" y="172" width="236" height="30"/>
+                                <state key="normal" title="https://github.com/Make-A-Pede/Make-A-Pede-iOS-App">
                                     <color key="titleColor" red="0.54901960780000003" green="0.81176470590000005" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -320,93 +320,54 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h8H-0q-nFb">
-                                <rect key="frame" x="84" y="208.5" width="226" height="30"/>
-                                <state key="normal" title="https://github.com/Make-A-Pede/Make-A-Pede-Android-App/blob/master/LICENSE">
+                                <rect key="frame" x="79" y="208.5" width="231" height="30"/>
+                                <state key="normal" title="https://github.com/Make-A-Pede/Make-A-Pede-iOS-App/blob/master/LICENSE.md">
                                     <color key="titleColor" red="0.54901960780000003" green="0.81176470590000005" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="linkClicked:" destination="1f4-Vn-Mlu" eventType="touchUpInside" id="iRa-HE-vKr"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aEY-ue-ZYX">
-                                <rect key="frame" x="127.5" y="258.5" width="65.5" height="21"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BlueCap:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trM-Ef-KuZ">
-                                <rect key="frame" x="10" y="289.5" width="69" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Credits:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trM-Ef-KuZ">
+                                <rect key="frame" x="10" y="249" width="60" height="21"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="69" id="HWW-kr-DQJ"/>
+                                    <constraint firstAttribute="width" constant="60" id="43o-cy-Zub"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dkI-JD-TNd">
-                                <rect key="frame" x="89" y="285" width="221" height="30"/>
-                                <state key="normal" title="https://github.com/troystribling/BlueCap">
+                                <rect key="frame" x="75" y="244.5" width="235" height="30"/>
+                                <state key="normal" title="https://github.com/Make-A-Pede/Make-A-Pede-iOS-App/blob/master/CREDITS.md">
                                     <color key="titleColor" red="0.54901960780000003" green="0.81176470590000005" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="linkClicked:" destination="1f4-Vn-Mlu" eventType="touchUpInside" id="8dL-Xd-TOa"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright (c) 2014 Troy Stribling" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vri-Qg-AKe">
-                                <rect key="frame" x="10" y="325.5" width="249" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="License:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4IS-Fe-zId">
-                                <rect key="frame" x="10" y="361.5" width="64" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="64" id="ovA-y6-G3Q"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3i2-S1-2Zl">
-                                <rect key="frame" x="84" y="357" width="226" height="30"/>
-                                <state key="normal" title="https://github.com/troystribling/BlueCap/blob/master/LICENSE">
-                                    <color key="titleColor" red="0.54901960780000003" green="0.81176470590000005" blue="0.1960784314" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <action selector="linkClicked:" destination="1f4-Vn-Mlu" eventType="touchUpInside" id="1Mo-1V-qLH"/>
-                                </connections>
-                            </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="h8H-0q-nFb" firstAttribute="leading" secondItem="MeU-CZ-lz6" secondAttribute="trailing" constant="10" id="05B-xI-Bzc"/>
+                            <constraint firstItem="h8H-0q-nFb" firstAttribute="leading" secondItem="MeU-CZ-lz6" secondAttribute="trailing" constant="5" id="05B-xI-Bzc"/>
                             <constraint firstItem="MeU-CZ-lz6" firstAttribute="leading" secondItem="ZUH-qx-251" secondAttribute="leading" constant="10" id="0JT-Mr-Fio"/>
                             <constraint firstItem="SjB-e5-C2M" firstAttribute="top" secondItem="TKi-3Z-fKx" secondAttribute="bottom" constant="10" id="3N0-JF-AVX"/>
                             <constraint firstItem="aX6-xl-1Lx" firstAttribute="top" secondItem="GTg-9M-Z80" secondAttribute="bottom" constant="15" id="4zk-f2-Mxi"/>
                             <constraint firstAttribute="trailing" secondItem="h8H-0q-nFb" secondAttribute="trailing" constant="10" id="5co-ud-d4G"/>
                             <constraint firstItem="MeU-CZ-lz6" firstAttribute="top" secondItem="aX6-xl-1Lx" secondAttribute="bottom" constant="15" id="6li-1X-74b"/>
                             <constraint firstAttribute="trailing" secondItem="dkI-JD-TNd" secondAttribute="trailing" constant="10" id="Ery-6n-FiV"/>
-                            <constraint firstItem="3i2-S1-2Zl" firstAttribute="leading" secondItem="4IS-Fe-zId" secondAttribute="trailing" constant="10" id="HZa-Ng-y0T"/>
-                            <constraint firstItem="vri-Qg-AKe" firstAttribute="top" secondItem="trM-Ef-KuZ" secondAttribute="bottom" constant="15" id="Jvc-FK-cqn"/>
-                            <constraint firstAttribute="trailing" secondItem="3i2-S1-2Zl" secondAttribute="trailing" constant="10" id="KgT-jL-ohP"/>
                             <constraint firstItem="trM-Ef-KuZ" firstAttribute="leading" secondItem="ZUH-qx-251" secondAttribute="leading" constant="10" id="MrV-Yc-ZvE"/>
                             <constraint firstItem="GTg-9M-Z80" firstAttribute="top" secondItem="SjB-e5-C2M" secondAttribute="bottom" constant="10" id="PhA-XU-mfU"/>
                             <constraint firstItem="ajM-Um-imi" firstAttribute="centerY" secondItem="aX6-xl-1Lx" secondAttribute="centerY" id="QeP-kc-s6a"/>
-                            <constraint firstItem="3i2-S1-2Zl" firstAttribute="centerY" secondItem="4IS-Fe-zId" secondAttribute="centerY" id="RfT-wT-3Rp"/>
-                            <constraint firstItem="4IS-Fe-zId" firstAttribute="leading" secondItem="ZUH-qx-251" secondAttribute="leading" constant="10" id="UWe-Fs-85B"/>
-                            <constraint firstItem="4IS-Fe-zId" firstAttribute="top" secondItem="vri-Qg-AKe" secondAttribute="bottom" constant="15" id="UvX-YX-mzt"/>
                             <constraint firstItem="SjB-e5-C2M" firstAttribute="centerX" secondItem="ZUH-qx-251" secondAttribute="centerX" id="ZZb-76-bys"/>
                             <constraint firstItem="h8H-0q-nFb" firstAttribute="centerY" secondItem="MeU-CZ-lz6" secondAttribute="centerY" id="aVe-Zf-Lwl"/>
-                            <constraint firstItem="aEY-ue-ZYX" firstAttribute="top" secondItem="h8H-0q-nFb" secondAttribute="bottom" constant="20" id="an9-A9-W6W"/>
-                            <constraint firstItem="vri-Qg-AKe" firstAttribute="leading" secondItem="ZUH-qx-251" secondAttribute="leading" constant="10" id="cnS-R9-UAl"/>
-                            <constraint firstItem="dkI-JD-TNd" firstAttribute="leading" secondItem="trM-Ef-KuZ" secondAttribute="trailing" constant="10" id="daO-9G-3Wf"/>
+                            <constraint firstItem="trM-Ef-KuZ" firstAttribute="top" secondItem="MeU-CZ-lz6" secondAttribute="bottom" constant="15" id="d3V-3I-J1m"/>
+                            <constraint firstItem="dkI-JD-TNd" firstAttribute="leading" secondItem="trM-Ef-KuZ" secondAttribute="trailing" constant="5" id="daO-9G-3Wf"/>
                             <constraint firstItem="aX6-xl-1Lx" firstAttribute="leading" secondItem="ZUH-qx-251" secondAttribute="leading" constant="10" id="irU-fk-Vib"/>
-                            <constraint firstItem="aEY-ue-ZYX" firstAttribute="centerX" secondItem="ZUH-qx-251" secondAttribute="centerX" id="l3v-KE-l0q"/>
                             <constraint firstAttribute="trailing" secondItem="ajM-Um-imi" secondAttribute="trailing" constant="10" id="mId-3N-50K"/>
                             <constraint firstItem="GTg-9M-Z80" firstAttribute="centerX" secondItem="ZUH-qx-251" secondAttribute="centerX" id="nIe-vW-k9A"/>
-                            <constraint firstItem="trM-Ef-KuZ" firstAttribute="top" secondItem="aEY-ue-ZYX" secondAttribute="bottom" constant="10" id="pDB-J0-r4T"/>
                             <constraint firstItem="TKi-3Z-fKx" firstAttribute="centerX" secondItem="ZUH-qx-251" secondAttribute="centerX" id="rG8-IP-Ypj"/>
-                            <constraint firstItem="ajM-Um-imi" firstAttribute="leading" secondItem="aX6-xl-1Lx" secondAttribute="trailing" constant="10" id="rUb-rG-8ix"/>
+                            <constraint firstItem="ajM-Um-imi" firstAttribute="leading" secondItem="aX6-xl-1Lx" secondAttribute="trailing" constant="5" id="rUb-rG-8ix"/>
                             <constraint firstItem="TKi-3Z-fKx" firstAttribute="top" secondItem="w3A-1K-nyR" secondAttribute="bottom" constant="15" id="rgT-V3-tVe"/>
                             <constraint firstItem="dkI-JD-TNd" firstAttribute="centerY" secondItem="trM-Ef-KuZ" secondAttribute="centerY" id="w0f-6t-z67"/>
                         </constraints>
@@ -415,7 +376,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="coG-jR-w0Z" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2944" y="786"/>
+            <point key="canvasLocation" x="2943.75" y="785.91549295774644"/>
         </scene>
         <!--Make-A-Pede-->
         <scene sceneID="tne-QT-ifu">
